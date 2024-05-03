@@ -16,7 +16,7 @@ public class Main {
 
     Scanner scn = new Scanner(System.in);
 
-    public Main() {
+    public Main(){
 
         String url = "jdbc:mysql://" + host + ":" + port + "/" + db_name;
         try {
